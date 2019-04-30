@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/task/index",
+    "pages/app/index",
     "pages/chat/index",
     "pages/post/index",
-    "pages/app/index",
-    "page/user/index"
+    "pages/user/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -19,22 +19,16 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/task/index",
-        "iconPath": "assets/image/icon_process_todo.png",
-        "selectedIconPath": "assets/image/icon_process_todo.png",
-        "text": "待办"
-      },
-      {
-        "pagePath": "pages/chat/index",
-        "iconPath": "assets/image/icon_chat.png",
-        "selectedIconPath": "assets/image/icon_chat.png",
-        "text": "信息"
-      },
-      {
         "pagePath": "pages/post/index",
         "iconPath": "assets/image/icon_process_add.png",
         "selectedIconPath": "assets/image/icon_process_add.png",
         "text": "发起"
+      },
+      {
+        "pagePath": "pages/task/index",
+        "iconPath": "assets/image/icon_process_todo.png",
+        "selectedIconPath": "assets/image/icon_process_todo.png",
+        "text": "待办"
       },
       {
         "pagePath": "pages/app/index",
@@ -43,7 +37,13 @@
         "text": "应用"
       },
       {
-        "pagePath": "page/user/index",
+        "pagePath": "pages/chat/index",
+        "iconPath": "assets/image/icon_chat.png",
+        "selectedIconPath": "assets/image/icon_chat.png",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/user/index",
         "iconPath": "assets/image/icon_user.png",
         "selectedIconPath": "assets/image/icon_user.png",
         "text": "我的"
