@@ -1,0 +1,58 @@
+/**ownTaskView.wxss**/
+div {
+  margin: 0;
+  padding: 0;
+}
+x-scroll-view {
+  height: 100%;
+}
+.container .inner {
+  height: 140rpx;
+  width: 100%;
+}
+.container .inner .logo {
+  float: left;
+  color: #fff;
+  background: rgb(68, 148, 253);
+  border-radius: 100rpx;
+  line-height: 100rpx;
+  height: 100rpx;
+  width: 100rpx;
+  margin: 20rpx 30rpx 20rpx 50rpx;
+  display: block;
+}
+.container .inner .info {
+  margin: 0 225rpx 0 180rpx;
+  height: 140rpx;
+  line-height: 30rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .inner .date {
+  float: right;
+  width: 190rpx;
+  margin-right: 35rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  font-size: 25rpx;
+  color: #888;
+}
+.container .inner .info>div {
+  height: 40rpx;
+  overflow: hidden;
+  display: block;
+  text-align: left;
+  white-space:nowrap;
+}
+.container .inner .info .title {
+}
+.container .inner .info .position {
+  font-size: 25rpx;
+  color: #888;
+}
+.container .inner .info .description {
+  font-size: 25rpx;
+  color: #888;
+}

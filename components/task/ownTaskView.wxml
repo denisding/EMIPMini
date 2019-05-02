@@ -1,0 +1,13 @@
+<!--ownTaskView.wxml-->
+<x-scroll-view refreshing="{{refreshing}}" nomore="{{nomore}}" bindpulldownrefresh="_onPullDownRefresh" bindloadmore="_onLoadmore" bindscroll="_onScroll" class="container">
+    <view class="inner" wx:for="{{taskList}}" wx:key="{{index}}">
+      <div class="logo" wx:if="{{(item.logoColor)}}" style="background:{{item.logoColor}};">{{item.logoName}}</div>
+      <div class="logo" wx:else>{{item.logoName}}</div>
+      <div class="date">{{item.date}}</div>
+      <div class="info">
+        <div class="title">{{item.title}}</div>
+        <div class="position">{{item.position}}</div>
+        <div class="description" wx:if="{{(item.description)}}">{{item.description}}</div>
+      </div>
+    </view>
+</x-scroll-view>

@@ -9,9 +9,8 @@ Page({
     currentTab: 0,
     // 未读数存储
     toDoCount: {
-      total: 14,
       ownTask: 12,
-      shareTask: 2
+      shareTask: 0
     },
   },
   onLoad: function () {
@@ -22,6 +21,7 @@ Page({
      */
     wx.getSystemInfo({
       success: function (res) {
+        // she
         that.setData({
           winWidth: res.windowWidth,
           winHeight: res.windowHeight
@@ -34,7 +34,7 @@ Page({
      */
     wx.setTabBarBadge({
       index: 1,
-      text: this.data.toDoCount.total.toString()
+      text: (this.data.toDoCount.ownTask + this.data.toDoCount.shareTask).toString()
     });
   },
 

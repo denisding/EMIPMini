@@ -1,27 +1,25 @@
-.swiper-tab{  
-    width: 100%;  
-    border-bottom: 0rpx solid #00a0e8;  
-    text-align: center;  
-    line-height: 80rpx;
+/* 滑动Tab */
+view {
+  padding: 0;
+  margin: 0;
 }
-.swiper-tab-list{ 
-    font-size: 30rpx;  
-    display: inline-block;  
-    width: 25%;  
-    color: #353535;  
+.swiper-tab{
+  width: 100%;
+  text-align: center;  
+  line-height: 44px;
+}
+.swiper-tab-list{
+  font-size: 30rpx;  
+  display: inline-block;  
+  width: 25%;
+  color: #353535;  
 }  
 .on{
-  color: #4c7ce2;  
-  border-bottom: 5rpx solid #4c7ce2;
+  color: #4c7ce2;
+  border-bottom: 2px solid #4c7ce2;
 }  
 
-.swiper-box{ 
-  display: block; height: 100%; width: 100%; overflow: hidden;
-}  
-.swiper-box view{  
-    text-align: center;  
-}
-
+/* 未读数 */
 .num_badge {
   position: relative;
 }
@@ -45,4 +43,18 @@
   z-index: 10;
   box-shadow: 0 0 0 1px #fff;
   box-sizing: border-box;
+}
+
+/* 滑动视图区 */
+.swiper-box{
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: calc(100% - 80rpx);
+  width: 100%;
+  overflow: hidden;
+}  
+.swiper-box view{  
+  text-align: center;
+  font-size: 30rpx;
 }
