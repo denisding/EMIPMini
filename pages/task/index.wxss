@@ -3,7 +3,7 @@
     border-bottom: 0rpx solid #00a0e8;  
     text-align: center;  
     line-height: 80rpx;
-    }  
+}
 .swiper-tab-list{ 
     font-size: 30rpx;  
     display: inline-block;  
@@ -14,7 +14,7 @@
   color: #4c7ce2;  
   border-bottom: 5rpx solid #4c7ce2;
 }  
-  
+
 .swiper-box{ 
   display: block; height: 100%; width: 100%; overflow: hidden;
 }  
@@ -27,13 +27,13 @@
 }
 .num_badge_count {
   position: absolute;
-  top: -8x;
-  right: 0px;
+  top: 28rpx;
+  right: 19rpx;
   height: 1.6em;
   min-width: 1.6em;
   line-height: 1.6;
-  padding: 0 .4em;
-  font-size: 10px;
+  padding: 0 0.4em;
+  font-size: 19rpx;
   font-family: tahoma;
   border-radius: .8em;
   background: #FF4444;

@@ -34,6 +34,11 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    toDoCount: {
+      total: 14,
+      ownTask: 12,
+      shareTask: 2
+    },
   }
 })

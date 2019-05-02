@@ -1,13 +1,18 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
     winWidth: 0,
     winHeight: 0,
     // tab切换  
     currentTab: 0,
+    // 未读数存储
+    toDoCount: {
+      total: 14,
+      ownTask: 12,
+      shareTask: 2
+    },
   },
   onLoad: function () {
     var that = this;
@@ -23,7 +28,16 @@ Page({
         });
       }
     });
+
+    /**
+     * 设置未读数
+     */
+    wx.setTabBarBadge({
+      index: 1,
+      text: this.data.toDoCount.total.toString()
+    });
   },
+
   /** 
      * 滑动切换tab 
      */
@@ -31,6 +45,7 @@ Page({
     var that = this;
     that.setData({ currentTab: e.detail.current });
   },
+
   /** 
    * 点击tab切换 
    */
