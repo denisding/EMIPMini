@@ -289,5 +289,14 @@ Component({
         this.setData({ nomore: true });
       }, 500);
     },
+    /**
+     * 单击事件
+     */
+    onClick() {
+      //打开待审批任务
+      wx.navigateTo({
+        url: '/pages/task/process'
+      });
+    }
   }
 })

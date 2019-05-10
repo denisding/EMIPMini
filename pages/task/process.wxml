@@ -1,0 +1,4 @@
+<!-- process.wxml-->
+<nocontent>
+  <view slot="footer">开发中</view>
+</nocontent>

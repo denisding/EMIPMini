@@ -4,7 +4,8 @@
     "pages/app/index",
     "pages/chat/index",
     "pages/post/index",
-    "pages/user/index"
+    "pages/user/index",
+    "pages/task/process"
   ],
   "window": {
     "backgroundTextStyle": "dark",

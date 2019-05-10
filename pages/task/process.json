@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "流程审批",
+  "usingComponents": {
+    "nocontent": "/components/x/view/nocontent/nocontent"
+  }
+}

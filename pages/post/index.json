@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "流程发起",
+  "usingComponents": {
+    "nocontent": "/components/x/view/nocontent/nocontent"
+  }
 }
