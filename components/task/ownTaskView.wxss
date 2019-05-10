@@ -13,7 +13,7 @@ x-scroll-view {
 .container .inner .logo {
   float: left;
   color: #fff;
-  background: rgb(68, 148, 253);
+  background: rgb(130, 183, 253);
   border-radius: 100rpx;
   line-height: 100rpx;
   height: 100rpx;

@@ -6,7 +6,7 @@ view {
 .swiper-tab{
   width: 100%;
   text-align: center;  
-  line-height: 44px;
+  line-height: 80rpx;
 }
 .swiper-tab-list{
   font-size: 30rpx;  

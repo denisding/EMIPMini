@@ -10,12 +10,21 @@
     <own-task-view></own-task-view>
   </swiper-item>
   <swiper-item>
-    <view>共享池</view>
+    <nocontent wx:if="{{toDoCount.shareTask == 0}}">
+        <view slot="footer">没有共享的任务</view>
+    </nocontent>
+    <view wx:if="{{toDoCount.shareTask > 0}}">共享池</view>
   </swiper-item>
   <swiper-item>
-    <view>已审批</view>
+    <nocontent wx:if="{{toDoCount.approvedTask == 0}}">
+        <view slot="footer">没有参与过审批</view>
+    </nocontent>
+    <view wx:if="{{toDoCount.approvedTask > 0}}">已审批</view>
   </swiper-item>
   <swiper-item>
-    <view>我的申请</view>
+    <nocontent wx:if="{{toDoCount.myApplicationTask == 0}}">
+        <view slot="footer">您没有发起的历史申请</view>
+    </nocontent>
+    <view wx:if="{{toDoCount.myApplicationTask > 0}}">我的申请</view>
   </swiper-item>
 </swiper>

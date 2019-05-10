@@ -10,7 +10,9 @@ Page({
     // 未读数存储
     toDoCount: {
       ownTask: 12,
-      shareTask: 0
+      shareTask: 0,
+      approvedTask: 0,
+      myApplicationTask: 0,
     },
   },
   onLoad: function () {

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "nocontent": "/components/x/view/nocontent/nocontent",
     "own-task-view": "/components/task/ownTaskView"
   }
 }
