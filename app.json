@@ -3,6 +3,7 @@
     "pages/task/index",
     "pages/app/index",
     "pages/chat/index",
+    "pages/addressbook/index",
     "pages/post/index",
     "pages/user/index",
     "pages/task/process"
@@ -38,10 +39,10 @@
         "text": "应用"
       },
       {
-        "pagePath": "pages/chat/index",
-        "iconPath": "assets/image/icon_chat.png",
-        "selectedIconPath": "assets/image/icon_chat_active.png",
-        "text": "信息"
+        "pagePath": "pages/addressbook/index",
+        "iconPath": "assets/image/icon_addressbook.png",
+        "selectedIconPath": "assets/image/icon_addressbook_active.png",
+        "text": "通讯录"
       },
       {
         "pagePath": "pages/user/index",
